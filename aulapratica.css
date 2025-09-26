@@ -22,9 +22,6 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-
-
     
    }
    #photo{
@@ -34,7 +31,7 @@ main{
 
 
      border-radius: 50%;
-     margin: 50%;
+     margin-bottom: 50px;
    }
    .roboto {
     font-family: "Roboto", sans-serif;
