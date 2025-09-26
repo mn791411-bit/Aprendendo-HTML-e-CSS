@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}       
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+}
+
+main{
+    margin: 50px auto;
+    width: 90%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+    
+   }
+   #photo{
+     box-shadow: 1px 1px 15px rgba(0,0,0,0.5);
+     width: 160px;
+     height: 160px;
+
+
+     border-radius: 50%;
+     margin: 50%;
+   }
+   .roboto {
+    font-family: "Roboto", sans-serif;
+    }
+   .box{
+      display: flex;
+      justify-content: column;
+      align-items: center;
+      flex-direction: column;
+      align-items: center;
+      }
+      .box p, .box h1{
+
+        text-align: center;
+      }
+    .box img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+
+    
+
+   }
+   .icons{
+   font-size: 24px;
+   }
+   .fa-instagram{
+    background: -webkit-linear-gradient(right, yellow, orange,pink, purple);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;   
+
+   }
+   .fa-facebook{
+    color: bisque;
+   }
+    .fa-github{
+     color: black;
+    }
+    .fa-linkedin{
+     color: (blue);       
+    
+    }
+    @media(min-width: 900px){
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-self: center; 
+            align-items: center;
+        }
+        main{
+            flex-direction: row;
+            margin: 0;
+        }
+
+    }
+
+

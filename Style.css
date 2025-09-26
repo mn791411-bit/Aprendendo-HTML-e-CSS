@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;  
+    box-sizing: border-box;
+    
+}
+body{
+
+    height: 100vh;
+
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(238, 227, 227);
+    background-image: url(beatriz-brito-fboywgirl.jpg);
+    background-position: center center;
+
+    background: url(beatriz-brito-fboywgirl.jpg) center center no-repeat;
+
+    color: white;
+}
+
+P{
+
+    color: blanchedalmond;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: bottom; 
+    line-height: 35px;
+
+}
+
+a{
+
+    text-decoration: underline ;
+    color: rgb(216, 23, 23);
+}
+
+a:hover{
+
+    color: rgb(4, 4, 221);
+}   
+img{
+
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+
+}
+
+input{
+    
+    padding: 10px;
+    margin: 20px ;
+   
+
+}   
+
+div{
+
+    box-shadow: rgba(0, 0, 0, 0.5) 0 2px 5px;
+     
+    margin: 20px;
+    padding: 40px;
+    
+
+    width: 100px;
+    height: 100px;
+
+    border-radius: 50%;
+}
