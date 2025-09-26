@@ -7,7 +7,12 @@ body{
     height: 100vh;
     width: 100vw;
     margin: 0 auto;
-}
+    
+    display: flex;
+    flex-direction: column;
+    justify-self: center; 
+    align-items: center;
+    }
 
 main{
     margin: 50px auto;
@@ -24,8 +29,8 @@ main{
    }
    #photo{
      box-shadow: 1px 1px 15px rgba(0,0,0,0.5);
-     width: 160px;
-     height: 160px;
+     width: 300px;
+     height: 300px;
 
 
      border-radius: 50%;
@@ -34,7 +39,7 @@ main{
    .roboto {
     font-family: "Roboto", sans-serif;
     }
-   .box{
+   .box {
       display: flex;
       justify-content: column;
       align-items: center;
@@ -43,7 +48,7 @@ main{
       }
       .box p, .box h1{
 
-        text-align: center;
+        text-align: column;
       }
     .box img{
     width: 160px;
@@ -57,13 +62,13 @@ main{
    font-size: 24px;
    }
    .fa-instagram{
-    background: -webkit-linear-gradient(right, yellow, orange,pink, purple);
+    background: -webkit-linear-gradient(right,RED, yellow, orange,pink, purple);
     background-clip: text;
     -webkit-text-fill-color: transparent;   
 
    }
    .fa-facebook{
-    color: bisque;
+    color: blue;
    }
     .fa-github{
      color: black;
@@ -72,18 +77,26 @@ main{
      color: (blue);       
     
     }
-    @media(min-width: 900px){
-        body{
-            display: flex;
-            flex-direction: column;
-            justify-self: center; 
-            align-items: center;
-        }
+    @media(min-width: 900px){}
+        
         main{
             flex-direction: row;
             margin: 0;
+
+            gap: 50px;
+        }
+        .box img{
+         width: 300px;
+         height: 300px;
+        }
+        .box p {
+            max-width: 450px;
+        }
+        .icons{
+            font-size: 32px;
+
         }
 
-    }
+    
 
 
